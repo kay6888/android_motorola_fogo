@@ -16,7 +16,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from fogo device
 $(call inherit-product, device/motorola/fogo/device.mk)
 
-
+## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := fogo
 PRODUCT_NAME := twrp_fogo
 PRODUCT_BRAND := motorola

@@ -12,8 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
-
-
 # A/B
 AB_OTA_UPDATER := true
 TARGET_ENFORCE_AB_OTA_PARTITION_LIST := true
